@@ -1,1 +1,19 @@
-%h1 Hello! How is it going? 
+#banner
+    .banner_content
+        %h1 WestKostDocs
+        %p The best place for your documents!
+        %button= link_to "Enter", new_user_registration_path
+
+#callouts
+    .callout_inner
+        .wrapper
+            .callout
+            %h2 Convenience to use
+            %p WestKostBlog may save your time when you need to manage your documents. Everything you want is here. You can create a new document and save it in your file storage. If you need to edit or delete your documents, you also can do that.   
+
+
+#bottom_cta
+    .wrapper
+        %h2 Follow us!
+        %br 
+        %button= link_to "Join Now", new_user_registration_path 
